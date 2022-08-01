@@ -9,6 +9,12 @@ plugins:
   - serverless-offline
   - serverless-plugin-canary-deployments
 
+
+## optimize the used dependencies for seperate functions
+package:
+  individually: true
+
+
 provider:
   tracing:
     lambda: true
